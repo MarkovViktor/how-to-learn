@@ -32,25 +32,38 @@ div {
 }
 
 .header__title {
+  position: absolute;
+  z-index: 3;
   display: flex;
-  justify-content: center;
   width: 730px;
   margin-left: 64px;
+  font-size: 102px;
+  line-height: 96px;
 }
 
 .header__subtitle {
+  width: 388px;
+  display: flex;
   position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  z-index: 2;
+
 }
 
 .header__link {
-
+  position: absolute;
+font-size: 18px;
 }
 
 .header__main-illustration {
   position: absolute;
+  z-index: 1;
   right: 0;
   bottom: 0;
   background-image: url(../images/header-image.png);
+  background-size: cover;
   width: 765px;
   height: 608px;
 }
@@ -59,6 +72,11 @@ div {
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: 64px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
