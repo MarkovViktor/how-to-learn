@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 div {
@@ -15,6 +15,7 @@ div {
 
 .header {
   position: relative;
+  overflow: hidden;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -24,9 +25,6 @@ div {
 
 .logo__place_header {
   position: absolute;
-  background-image: url(../images/logo_place_header.svg);
-  width: 183px;
-  height: 32px;
   margin-top: 30px;
   margin-left: 64px;
 }
@@ -34,9 +32,9 @@ div {
 .header__title {
   position: absolute;
   z-index: 3;
-  display: flex;
   width: 730px;
   margin-left: 64px;
+  margin-top: 300px;
   font-size: 102px;
   line-height: 96px;
 }
@@ -48,13 +46,16 @@ div {
   left: 64px;
   bottom: 30px;
   font-size: 18px;
+  line-height: 25px;
   z-index: 2;
 
 }
 
 .header__link {
   position: absolute;
-font-size: 18px;
+  left: 64px;
+  bottom: 25px;
+  font-size: 18px;
 }
 
 .header__main-illustration {
@@ -62,7 +63,6 @@ font-size: 18px;
   z-index: 1;
   right: 0;
   bottom: 0;
-  background-image: url(../images/header-image.png);
   background-size: cover;
   width: 765px;
   height: 608px;
