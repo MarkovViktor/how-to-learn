@@ -1,0 +1,11 @@
+.header__link {
+    font-size: 18px;
+    text-decoration: none;
+    color:  #2f80ed;
+    transition: color 0.9s;
+  }
+  
+  .header__link:hover {
+    color: #ed6742;
+    transition: color 0.1s;
+  }
