@@ -4,10 +4,10 @@
     font-weight: normal;
     text-decoration: none;
     color: #F2F2F2;
-    transition: color 0.9s;
+    transition: 0.7s;
    }
   
 .footer__column-link:hover {
-  color: #ed6742;
-  transition: color 0.1s;
+    transition: 0.1s;
+    opacity: 0.5;
 }
